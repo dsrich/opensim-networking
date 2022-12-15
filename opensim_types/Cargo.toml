@@ -1,13 +1,13 @@
 [package]
 name = "opensim_types"
-version = "0.1.0"
-authors = ["Leo Schwarz <mail@leoschwarz.com>"]
+version = "0.2.0"
+authors = ["Leo Schwarz <mail@leoschwarz.com>", "Dave Richardson <dsrich@hotmail.com>"]
 license = "GPL-3.0"
 
 [dependencies]
-nalgebra = { version = "0.16", features = ["serde-serialize"] }
-num-traits = "0.1.40"
-serde = "1.0"
-url = "1.2"
-uuid = {version = "0.7", features = ["serde"]}
+nalgebra = { version = "*", features = ["serde-serialize"] }
+num-traits = "*"
+serde = "*"
+url = "*"
+uuid = {version = "*", features = ["serde"]}
 

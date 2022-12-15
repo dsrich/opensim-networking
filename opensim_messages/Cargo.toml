@@ -1,11 +1,11 @@
 [package]
 name = "opensim_messages"
-version = "0.1.0"
-authors = ["Leo Schwarz <mail@leoschwarz.com>"]
+version = "0.2.0"
+authors = ["Leo Schwarz <mail@leoschwarz.com>", "Dave Richardson <dsrich@hotmail.com>"]
 license = "GPL-3.0"
 
 [dependencies]
-arrayvec = "0.4.2"
-byteorder = "1.0"
-failure = "0.1.1"
+arrayvec = "*"
+byteorder = "*"
+failure = "*"
 opensim_types = { path = "../opensim_types" }
